@@ -1,0 +1,19 @@
+html,
+body {
+	background: #070629;
+	color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+	canvas{
+		width: 30%;
+		height: 10rem;
+	}
+  }
+
+  @media only screen and (max-width: 768px) {
+	canvas{
+		width: 50%;
+		height: 10rem;
+	}
+  }
